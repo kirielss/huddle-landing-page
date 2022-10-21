@@ -13,12 +13,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-image: url("images/bg-mobile.svg");
     background-repeat: no-repeat;
-
 }
 
 main{
     padding: 30px;
-
+    
 }
 
 .logo {
@@ -28,25 +27,34 @@ main{
 main {
     display: grid;
     grid-template-columns: 1fr;
+    row-gap: 50px;
 }
 
 .main-pic {
     width: 100%;
-    margin: 50px 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
 }
 
 .call {
     font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
 }
 
 .msg {
     text-align: center;
-}
-
-.button-box {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
 }
 
 .button {
@@ -55,15 +63,14 @@ main {
     color: hsl(257, 40%, 49%);
     font-family: 'Poppins', sans-serif;
     border: 0;
-    box-shadow: 1px 2px #00000041;
-
-
+    box-shadow: 2px 2px #00000094;
+    margin: 20px 0 20px 0;
+    cursor: pointer;
 }
 
 .socials {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
 }
 
 .icon {
@@ -80,3 +87,51 @@ main {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(54, 100%, 50%); }
+
+@media screen and (min-width: 800px) {
+    body {
+        background-image: url("images/bg-desktop.svg");
+    }
+
+    main {
+        padding: 40px 50px;
+    }
+
+    .logo {
+        height: 3rem;
+    }
+
+    .content {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+    }
+
+    .call {
+        width: 80%;
+        font-size: 40px;
+    }
+
+    .text {
+        margin: 20px 20px 0 0;
+        align-items: flex-start;
+    }
+
+    .msg {
+        text-align: start;
+
+    }
+
+    p.msg {
+        font-size: 20px;
+    }
+
+    .button {
+        padding: 10px 50px 10px 50px;
+    }
+
+    .socials {
+        justify-content: right;
+    }
+
+
+}
