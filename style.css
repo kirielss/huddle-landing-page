@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 * {
-    box-sizing:border-box
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
     background-color: hsl(257, 40%, 49%);
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
 
+}
+
+main{
+    padding: 30px;
+
+}
+
+.logo {
+    height: 1.8rem;
 }
 
 main {
@@ -17,23 +32,50 @@ main {
 
 .main-pic {
     width: 100%;
+    margin: 50px 0;
 }
 
+.call {
+    font-family: 'Poppins', sans-serif;
+}
+
+.msg {
+    text-align: center;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.button {
+    border-radius: 20px;
+    padding: 10px 80px 10px 80px;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    box-shadow: 1px 2px #00000041;
 
 
+}
 
-
-
-
-
-
-
-
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
 
 .icon {
     border: 1px solid white;
-    padding: 10px;
     border-radius: 50%;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .attribution { font-size: 11px; text-align: center; }
