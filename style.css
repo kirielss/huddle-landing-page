@@ -1,0 +1,40 @@
+* {
+    box-sizing:border-box
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.main-pic {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.icon {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(54, 100%, 50%); }
