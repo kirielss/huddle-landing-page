@@ -9,7 +9,7 @@ I'm kirielss, a web developer in training, and here's my solution to the Fronten
 ## Solution Live Link:
 - https://delicate-dragon-e6914a.netlify.app/
 ## Preview:
-![landingpage](images\delicate-dragon-e6914a.netlify.app_.png)
+![landingpage](images/delicate-dragon-e6914a.netlify.app_.png)
 
 Feel free to add a comment, contact me, or simply take a look.
 
